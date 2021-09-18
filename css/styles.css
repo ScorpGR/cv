@@ -1,0 +1,157 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Merriweather', serif;
+  color: #40514E;
+}
+
+h1 {
+  font-size: 5.625rem;
+  margin-top: 50px auto 0 auto;
+  font-family: 'Sacramento', cursive;
+  color: #66BFBF;
+}
+
+h2 {
+  font-size: 2.5rem;
+  font-family: 'Montserrat', sans-serif;
+  color: #66BFBF;
+  padding-bottom: 10px;
+}
+
+h2 span {
+  text-decoration: underline;
+  text-decoration-thickness: from-font;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: #11999E;
+}
+
+p {
+  text-align: left;
+  line-height: 2;
+}
+
+a {
+  margin-right: 5%;
+  color: #11999E;
+  text-decoration: none;
+}
+
+a:hover {
+  color:#EAF6F6;
+}
+
+hr {
+  color: #EAF6F6;
+
+  border-style: none;
+  border-top-style: dotted;
+  border-width: 7px;
+  width:10%;
+  border-color: #B8DFD8;
+}
+
+#font-normal {
+  font-weight: 800;
+}
+
+#copyright {
+  color:#EAF6F6;
+  /*margin: 5% auto 10% 45%;*/
+  font-size: 0.75rem;
+  text-align: center;
+  /*padding: 20px 0;*/
+}
+.Antonios {
+  border-radius: 50%;
+}
+
+.picture1 {
+  border-radius: 25%;
+  width: 30%;
+  height: auto;
+  float: left;
+  margin-right: 2em;
+}
+.picture2 {
+  border-radius: 25%;
+  width: 30%;
+  height: auto;
+  float: right;
+  margin-left: 2em;
+}
+/*.wrap-text {
+  margin-left: 12em;
+}
+*/
+
+.skill-row {
+  /*width:30%;*/
+  margin: 100px auto 50px auto;
+}
+
+.top-container {
+  background-color: #CDF0EA;
+  position: relative;
+  padding-top: 15%;
+  line-height: 2em;
+}
+
+.top-cloud {
+  position: absolute;
+  top: 27%;
+  right: 35%;
+}
+
+.bottom-cloud {
+  position: absolute;
+  left: 35%;
+  bottom: 30%;
+}
+
+.middle-container {
+  width: 30%;
+  margin: 100px auto 100px auto;
+  /*margin: 100px 0;*/
+}
+
+.bottom-container {
+  background-color: #66BFBF;
+  padding: 0.8em 0 1em;
+  /*margin: auto;*/
+  /*width: 30%;*/
+  /*margin: 100px auto auto auto;*/
+}
+
+.BUTTON_WNL {
+   -webkit-border-radius: 20px;
+   -moz-border-radius: 20px;
+   border-radius: 20px;
+   color: #FFFFFF;
+   font-family: 'Montserrat', sans-serif;
+   font-size: 32px;
+   font-weight: 600;
+   padding: 40px;
+   background-color: #66BFBF;
+   -webkit-box-shadow: 1px 1px 20px 0 #000000;
+   -moz-box-shadow: 1px 1px 20px 0 #000000;
+   box-shadow: 1px 1px 20px 0 #000000;
+   text-shadow: -1px 1px 18px #000000;
+   border: solid #337FED 0;
+   text-decoration: none;
+   display: inline-block;
+   cursor: pointer;
+   text-align: center;
+}
+
+.BUTTON_WNL:hover {
+   background: #1E6266;
+   border: outset #66BFBF 1px;
+   -webkit-border-radius: 38px;
+   -moz-border-radius: 38px;
+   border-radius: 38px;
+   text-decoration: none;
+}
