@@ -104,12 +104,14 @@ hr {
   position: absolute;
   top: 27%;
   right: 35%;
+  opacity: 0.4;
 }
 
 .bottom-cloud {
   position: absolute;
   left: 35%;
   bottom: 30%;
+  opacity: 0.4;
 }
 
 .middle-container {
